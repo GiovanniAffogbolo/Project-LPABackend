@@ -1,3 +1,10 @@
 language: ruby
 rvm:
- - 2.2
+- 2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: nkxDkbF8CXN+nCOO7CbfySjr5D3zal9fKDxT63yVs5hNKdyo3NefnPjS2qbnqSiuERBPk6pa8m+v1PjIEEJBKNc/Sx/AD+srZ2RujZNLmPI7VNif3Bs3klZNEo1lhRjaarjMcDccGEMF+iJhUgSy6n3AhyRk8hWdWZd/9z3Y9LZ107V0jQyTvMsWThf2eamAuFLw42mjmIFCI7QU3FOtBNYt/NLdo5o2r5Saez13+wJyMDWJQsM9Sf0/4HWuOyZJNSbzOp4AN5S0jeyiKPFsWZvnRDo3S/M9hwiRJRD5DoKxaJMme3GsiVAnR/YOrQ2UILI21NThPNHdCwdLQ5E+od0IydsR14POMB+6/t+XXzKTxDZLfuObv9JQQJ1U6w42XDhKC/AVWWSY8rTcAZILiaYPnva5PAsGKjTyN2Xuz+jhVzOdrqmG7gIcwGPHp7pg9eYcpYc9/nXGv08KggqWSm3zp9n/X2pDd/iOz0feR1XoTHGuR1UC8Scorcztaaq/LVbspU2VKZQ4w/3XBtX8/p8UfiVv0sdLWlx7KPZljTeuU3q+5Y+k8bkWps9crKi5/M3bht+hVe5CeCnVQORMJO9D0AH76/5XzGBbOYbUareNn2IO3a3bFcvvdar7Aflfmv4lkpyxZX0Nvy+2pNI9awC78GLpWEqKAdJ61Ev/0z4=
+  app: ProjetLPA
+  on:
+    repo: GiovanniAffogbolo/ProjetLPA
