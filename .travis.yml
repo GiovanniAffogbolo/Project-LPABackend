@@ -8,3 +8,5 @@ deploy:
   app: lpaproject
   on:
     repo: GiovanniAffogbolo/ProjetLPA
+  run:
+    - "rake db:migrate"
