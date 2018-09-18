@@ -3,7 +3,8 @@ rvm:
 - 2.4.4
 deploy:
   provider: heroku
-  api_key: f79cbb7e-7e22-4525-befb-93a20d7b9b24
-  app: "rvm:\r- 2.4.4lpaproject"
+  api_key:
+    secure: sjlS+3P5n2bpGtXlPFM1zVjew+jGEsisJO1PQaMnJGcH8YbXFB8HqOFiHrngEm0DBlhMICjx0FM8EqjquVVRPAm2uncbnAjDPWbd+oXOOSN68lz6klMddnXezFu/vws7RcAtGC4yhYZ5nqO9y3Gvy61wB850wQ+d4mUYWyoYiU8daOJ5shEWR+V3pRlrGXuQbPvkuRUaxlHdx+LBaL5LHJ1wLthSEiF9bqqKYryVgmaqvqBU9d9Q4agAmI3mOcDNbB2OMZNLYqPbjkrXIrzpomjNlpgLNRv59RaEabN99CW+EoOe4slTjZ0GBkdD51OKtEblj+M2yvCxrHjc3M2Te0FRasJHKEGxY4TDtoJyDvtkJ+cyRdfe4b7IjoPsekgR3y8QeQikMo2/ub/BNNpY27Rhtwk0LGTIsflOeMelK2nx0qSE4zGzOP0EiusUHgnp6YQPitdv7fY+zzt6myixgMH3es8fs6sxl5zbpkovW713jpSjkx6EGZ1dgLxVsogrIdww07zbR+TXi+MW3arxGSj4uNSmzX3EkGaYFWl5GENHAmGtbg46dwWeykmjne2pi/NovLIHrpA8aveFqDVKj60DlbvhmK2r7Z08K5RQMlWbdHVGWoqxyrufbOCvOR7OflT9V5IkkPYkFGVvhXxnTGDj1snfXj586ryRtPBgZ1w=
+  app: lpaproject
   on:
     repo: GiovanniAffogbolo/ProjetLPA
