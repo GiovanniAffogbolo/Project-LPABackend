@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.4.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: QRV5xL5qT89Zn76wDuZcIl7mt5eeHokUCHlssYkxCT7K6rXQdMs33OiVy2xN9ZH6gkCfa6Gd6duPihESYgBVyaAsJFWAgU1jz+qy0Yr01aWt3ylWNXSWL7faUclXHF+cO8N8tEiOCVFJmNiO01pukXvPjbg44xnevBu9tSRf4CpIQwjoN/ss6zgb89cqchGww9W/+poCWsBtMtwJJTPPuQS5Hk25anDaEqRCTw0g+mgkN8ITaV3Dpl3P6HyQzysOJjqj5QKB/XmaeJ/ysRcbAzyuolgUCw2AZpj8cwhopv8Vi7i2rhL7cxNtHW4O0ZNSuBAbPDaWV4XEtChIETi2OpHQcMB32AyonhJH+v53RCxJqN3PekDy+mPtt0PO/aIBd3PPYNQYuFnEepya/GDZteJrGtlmOs3JVrMkTlM33WyCXqEAo7O+/D8VYKLCY0Fh44XZwnn7xog08lkQc5tfEUA0pielOBGlNaUWvJhakg6GnYlA1mDdXByY23+p3y3GvHdJtzo0W396G82s7nQ5vBY56UdYR3hktekfn9vlJI1bX096NnnJVSZz9EoI3SAI5qPf0Ln64o67bgpN0UAh7PmUTpTD9nrnioHI1afb1IH9zFrt4vRjbww+NOz5DCJ7NpMtw5f7sJ09tSuWsuZYbKzCAjXE0xh4iu/+RPb7MGI=
+  app: "rvm:\r- 2.4.4lpaproject"
+  on:
+    repo: GiovanniAffogbolo/ProjetLPA
