@@ -1,9 +1,3 @@
 language: ruby
 rvm:
-- 2.5.1
-deploy:
-  provider: heroku
-  api_key: f79cbb7e-7e22-4525-befb-93a20d7b9b24
-  app: lpaproject
-  on:
-    repo: GiovanniAffogbolo/ProjetLPA
+- 2.4.4
