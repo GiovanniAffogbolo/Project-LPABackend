@@ -1,14 +1,6 @@
 env:
   global:
-    - CC_TEST_REPORTER_ID=bf9621b79ca889c2184951acc42441819f3796e34940f6aa61f8bbd5fb5a4cbd
-    
-  before_script:
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
-  after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
+    - CC_TEST_REPORTER_ID=02bb197dfcb963bb9307a04d2c9ad8dcc888452cc5cc5d8c7c59031905ae80ea
 language: ruby
 rvm:
 - 2.4.4
@@ -21,3 +13,10 @@ deploy:
   run:
   - rake db:migrate
   
+    
+  before_script:
+    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+    - chmod +x ./cc-test-reporter
+    - ./cc-test-reporter before-build
+  after_script:
+    - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
