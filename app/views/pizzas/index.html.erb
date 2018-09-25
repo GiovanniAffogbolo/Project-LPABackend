@@ -17,7 +17,7 @@
       <tr>
         <td><%= pizza.name %></td>
         <td><%= pizza.price %></td>
-        <td><img src="<%= pizza.url %>" height="60px" width="60px"></td>
+        <td><img src="<%= pizza.url %>" height="100px" width="100px"></td>
         <td><%= link_to 'Show', pizza %></td>
         <td><%= link_to 'Edit', edit_pizza_path(pizza) %></td>
         <td><%= link_to 'Destroy', pizza, method: :delete, data: { confirm: 'Are you sure?' } %></td>
