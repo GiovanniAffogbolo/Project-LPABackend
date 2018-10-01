@@ -1,3 +1,3 @@
 class Commande < ApplicationRecord
-  has_many :pizza, through: :commande_line 
+  has_many :pizzas, through: :commande_lines 
 end
